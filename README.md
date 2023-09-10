@@ -2,6 +2,8 @@
 
 A basic React + TS app to list movies.
 
+See [live demo](https://movie-list-2sqbp0ug2-ardaorkin.vercel.app/).
+
 ### Built With
 
 - [![React][React.js]][React-url]
