@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.movies {
+  display: flex;
+  position: relative;
+  height: 100%;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.filters {
+  margin-bottom: 2rem;
+}
+
+.movie-card {
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  max-width: 500px;
+}
+
+.description-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+.description-divider::before {
+  content: " \2219 ";
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.cast {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-content {
+  text-align: start;
+  margin-bottom: 1em;
+}
+
+.movie-table {
+  width: 100vh;
+}
